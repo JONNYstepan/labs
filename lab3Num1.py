@@ -57,9 +57,9 @@ while True:
 		print('Некорректный ввод')
 
 	y = input('Вы хотите продолжить? :')
-	if y == '0' or y == 'no' or y == 'N' or y == 'нет':
+	if y == '0' or y == 'no' or y == 'N' or y == 'нет' or y == 'No' or y == 'Нет:
 		break
-	if y == '1' or y == 'yes' or y =='Y' or y == 'да':
+	if y == '1' or y == 'yes' or y =='Y' or y == 'да' or y == 'Yes' or y == 'Да':
 		continue
 	else:
 		print('Некорретный ввод')
