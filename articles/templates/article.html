@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Article{{post.id}}</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/article.css">
+</head>
+<body class = "article">
+	<div class="posts-archive">
+		<div class="one-post">
+ 			<h2 class="post-title_1">{{ post.title }}</h2>
+ 			<div class="article-info_">
+ 				<div class="article-author_">{{ post.author.username }}</div>
+ 				<div class="article-created-date_">{{ post.created_date }}</div>
+ 			</div>
+ 			<p class="article-text">{{ post.get_full }}</p>
+		</div>
+	</div>
+</body>
+</html>

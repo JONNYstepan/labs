@@ -1,0 +1,50 @@
+body{
+	background: #696969;
+	font-family: Tahoma, Arial, sans-serif;
+	color: #FFF;
+}
+
+.header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 320px;
+	width: 320px;
+}
+
+h1.H1{
+	margin-left: 588px;
+}
+
+ a{
+	text-decoration: none;	
+}
+.post-title{
+	width: 280px;
+	margin-left: 270px;
+}
+
+.article-info{
+	width: 960px;
+	margin-right: auto; 
+	margin-left: auto;
+}
+
+.article-author {
+ width: 50%;
+ float: left;
+}
+
+.article-created-date {
+ text-align: right;
+}
+
+.all_articles {
+	margin-left: 692px;
+	margin-right: 692px;
+	width: 140px;
+}
+
+.all_articles_ {
+	color: #FFF;
+}

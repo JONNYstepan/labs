@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Архив всех статей</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/article.css">
+</head>
+<body class = "archive">
+	<h1 class = "H1">Архив всех статей</h1>
+	<div class = "header">
+		<img src = '/static/img/archive.png'>
+	</div>
+	<div class = "all_articles" >
+		<a href ="/article/{{post.id}}"><h2 class= "all_articles_">Все записи</h2></a>
+	</div>
+ 	<div class = "archive_1">
+ 	{% for post in posts %}
+ 		<div class = "one-post">
+ 			<div class = "post-title">
+ 				<a href="/article/{{post.id}}"><h2 class = "post-title_">{{ post.title}}</h2></a>
+ 			</div>
+ 			<div class = "article-info">
+ 				<div class = "article-author">{{post.author.username}}</div>
+ 				<div class = "article-created-date">{{post.created_date}}</div>
+ 				<p class = "article-text">{{post.get_excerpt}}</p>
+ 			</div>
+ 		</div>
+ 	{% endfor %}
+ 	</div>
+</body>
+</html>
