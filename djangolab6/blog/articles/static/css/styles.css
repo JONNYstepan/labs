@@ -1,0 +1,101 @@
+﻿body{
+	background: #DCDCDC;
+	font-family: 'Arial', 'serif';
+}
+
+.header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 320px;
+	width: 320px;
+}
+
+
+h1.H1 {
+	margin-left: 602px;
+	color: #FF4500;
+}
+
+.logout_{
+	margin-left: 1430px;
+	margin-top: 5px;
+	color: #483D8B;
+	position: absolute;
+}
+
+a{
+	text-decoration: none;
+}
+.post-title_{
+	color: #483D8B;
+}
+.post-title {
+	width: 265px;
+	margin-left: 270px;
+}
+
+.post-title_1{
+	color: #FF4500;
+}
+
+.article-info {
+	width: 960px;
+	margin-right: auto; 
+	margin-left: auto;
+}
+
+.article-author {
+ width: 50%;
+ float: left;
+}
+
+.article-created-date {
+ text-align: right;
+}
+
+.all_articles {
+	margin-left: 692px;
+	margin-right: 692px;
+	width: 500px;
+}
+
+.all_articles_ {
+	color: #483D8B;
+}
+
+.create_new_post {
+	width: 305px;
+	margin-left: 610px;
+}
+
+.create_new_post_ {
+	color: #483D8B;
+}
+
+input[type=text]{
+	width: 250px;
+	border: 2px solid #000000;
+	outline: none;
+	border-radius: 6px;
+}
+textarea{
+	margin-top: 5px;
+	resize:none;
+	border: 2px solid #000000;
+	outline: none;
+	border-radius: 4px;
+}
+
+input[type=submit]{
+	cursor: pointer;
+	border: 2px solid #000000;
+	background: #ffffff;
+	border-radius: 4px;
+	padding: 3px;
+	width: 120px;
+}
+
+.reg_form{
+	margin-top:200px;
+}
